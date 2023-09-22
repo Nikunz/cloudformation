@@ -93,7 +93,7 @@ This CloudFormation template allows you to create an Amazon EC2 instance with an
    - **HTTPLocation**: Specify the IP address range for HTTP traffic.
    - **ICMPLocation**: Specify the IP address range for ICMP traffic.
 
-2. Deploy this CloudFormation template in your AWS account, and it will create an EC2 instance with the specified configuration and security group.
+2. Deploy this CloudFormation template in your AWS account either via uploading the json file or from an s3 bucket, and it will create an EC2 instance with the specified configuration and security group.
 
 3. Access the EC2 instance using the provided Public DNS or Public IP address.
 
